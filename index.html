@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="board">
+          <div class="header">
+            <div class="score">
+              <h1 class="total">$0</h1>
+            </div>
+
+            <div class="name">
+              <h1>TRIVIA BOARD</h1>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="upper">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="category">GENERAL</th>
+                    <th class="category">SCIENCE</th>
+                    <th class="category">ANIMALS</th>
+                    <th class="category">FILM</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="selection" data-category="9" data-difficulty="easy">$100</td>
+                    <td class="selection" data-category="17" data-difficulty="easy">$100</td>
+                    <td class="selection" data-category="27" data-difficulty="easy">$100</td>
+                    <td class="selection" data-category="11" data-difficulty="easy">$100</td>
+                  </tr>
+
+                  <tr>
+                    <td class="selection" data-category="9" data-difficulty="easy">$200</td>
+                    <td class="selection" data-category="17" data-difficulty="easy">$200</td>
+                    <td class="selection" data-category="27" data-difficulty="easy">$200</td>
+                    <td class="selection" data-category="11" data-difficulty="easy">$200</td>
+                  </tr>
+
+                  <tr>
+                    <td class="selection" data-category="9" data-difficulty="easy">$300</td>
+                    <td class="selection" data-category="17" data-difficulty="easy">$300</td>
+                    <td class="selection" data-category="27" data-difficulty="easy">$300</td>
+                    <td class="selection" data-category="11" data-difficulty="easy">$300</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="lower">
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="question" colspan="3"></td>
+                  </tr>
+
+                  <tr>
+                    <td class="choice choice0"></td>
+                    <td class="choice choice1"></td>
+                    <td class="choice choice2"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="reload">
+            <button class="reset">RESET</button>
+          </div>
+
+          <div class="credits">
+            <span>Andres Arango | &copy; 2022</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
